@@ -1,0 +1,418 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400,700;
+    width: 1400px;
+    margin: auto;
+    letter-spacing: -0.03em;
+}
+
+.ibm-plex-mono-regular-italic {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400,700;
+    font-style: italic;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    height: 7653px;
+    background-color: black;
+
+}
+
+.header {
+    background-image: url(/res/frontend_orlov.png);
+    background-size: cover;
+    width: 1400px;
+    height: 765px;
+    margin-bottom: 150px;
+}
+
+.nav {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+
+.nav-list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo-lnk {
+    display: inline-block;
+    width: 127px;
+    height: 22px;
+    text-decoration: none;
+    cursor: default;
+    margin-right: 515px;
+}
+
+.logo {
+    display: inline-block;
+    width: 130px;
+    height: 39px;
+}
+
+.logotext {
+    position: relative;
+    font-size: 42.41px;
+    font-weight: 700;
+    line-height: 55.14px;
+    letter-spacing: -0.11em;
+    color: #1BFF07;
+    width: 109px;
+    top: -50px;
+    left: 10px;
+}
+
+.nav__link {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 50px;
+    font-size: 18px;
+    letter-spacing: -0.11em;
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+.nav__link:nth-child(1) {
+    margin-left: 0px;
+}
+
+.nav__link:hover {
+    color: #1BFF07;
+}
+
+.main_text_wrapper {
+    display: block;
+    position: relative;
+    width: 430px;
+    top: 0px;
+    left: 125px;
+    color: white;
+}
+
+.main_text {
+    display: block;
+    position: relative;
+    width: 1200px;
+    top: 350px;
+    left: 125px;
+    color: #1BFF07;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+
+h2 {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 71.5px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+}
+
+li {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 71.5px;
+}
+
+.section_portfolio_txt {
+    color: white;
+    margin-left: 125px;
+    margin-bottom: 55px;
+}
+
+.section__portfolio__list {
+    width: 1150px;
+    height: 550px;
+}
+
+.section__portfolio__img {
+    margin-left: 125px;
+    width: 1150px;
+    height: 550px;
+    display: block;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.section__portfolio__title {
+    color: white;
+    position: relative;
+    top: 410px;
+    left: 175px;
+}
+
+.section__portfolio__title__review {
+    color: white;
+    position: relative;
+    top: 423px;
+    left: 175px;
+    font-size: 30px;
+}
+.button {
+    margin-top: 80px;
+    margin-left: 125px;
+    width: 582px;
+    height: 153px;
+    display: block;
+    color: black;
+    background-color: #1BFF07;
+    border-radius: 5px;
+    font-family: "IBM Plex Mono";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 153px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    border: 1px solid greenyellow;
+    color: #1BFF07;
+    background-color: black;
+}
+
+.skills {
+    margin-left: 125px;
+}
+
+.my_skill {
+    margin-top: 150px;
+    color: white;
+}
+
+.skill__title__html {
+    color: #1BFF07;
+    font-size: 35px;
+}
+
+.skill__title__js {
+    color: #1BFF07;
+    font-size: 35px;
+}
+
+.skill__title__lib {
+    color: #1BFF07;
+    font-size: 35px;
+}
+
+.skill__title__mob {
+    color: #1BFF07;
+    font-size: 35px;
+}
+
+.skill__title__review {
+    margin-top: 32px;
+    font-size: 22px;
+    color: white;
+}
+
+.skill__title__html:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_html.png);
+    margin-bottom: 23px;
+}
+
+.skill__title__js:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_js.png);
+    margin-bottom: 23px;
+}
+
+.skill__title__lib:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_lib.png);
+    margin-bottom: 23px;
+}
+
+.skill__title__mob:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_mob.png);
+    margin-bottom: 23px;
+}
+
+.services {
+    margin-left: 125px;
+}
+
+.services_txt {
+    font-size: 35px;
+    line-height: 45.5px;
+    margin-top: 150px;
+    color: white;
+}
+
+.services__list {
+    margin-top: 74px;
+}
+
+.services__list:last-child {
+    margin-top: 137px;
+}
+
+.section__list__txt__box {
+    width: 1150px;
+    height: 283px;
+    display: block;
+    background-color: #191C19;
+    border-radius: 30px;
+}
+
+.service__img__section__title {
+    color: #1BFF07;
+    margin-left: 45px;
+    padding-top: 40px;
+}
+
+.service__img__section__txt {
+    margin-top: 25px;
+    color: white;
+    font-size: 22px;
+    margin-left: 40px;
+}
+
+.section_contacts {
+    margin-top: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 717px;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+.contacts_image {
+    position: relative;
+    border-radius: 30px;
+    background-size: cover;
+    top: -300px;
+    left: 673px;
+}
+
+.contact_information {
+    position: relative;
+    color: white;
+    width: 300px;
+    font-size: 35px;
+    left: 125px;
+    top: 300px;
+}
+
+.instagram {
+    display: block;
+    position: relative;
+    width: 300px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    left: 125px;
+    top: 330px;
+    padding-bottom: 25px;
+}
+
+.telegram {
+    display: block;
+    position: relative;
+    width: 300px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    left: 125px;
+    top: 320px;
+    padding-bottom: 25px;
+}
+
+.email {
+    display: block;
+    position: relative;
+    width: 300px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    left: 125px;
+    top: 310px;
+}
+.telegram:hover {
+    color: #1BFF07;
+}
+
+.instagram:hover {
+    color: #1BFF07;
+}
+
+.email:hover {
+    color: #1BFF07;
+}
+
+.footer {
+    position: relative;
+    background-color: white;
+    top: 1018px;
+    height: 232px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer_main {
+    position: relative;
+    margin-left: 125px;
+    color: black;
+    top: 80px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.footer_copyrights {
+    position: relative;
+    color: grey;
+    top: 130px;
+    margin-left: 125px;
+    font-size: 20px;
+    line-height: 27px;
+}
